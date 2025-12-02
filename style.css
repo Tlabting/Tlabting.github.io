@@ -54,7 +54,7 @@ nav ul li a .label-effect:first-child {
 }
 
 nav ul li a .label-effect:last-child {
-  color: gray;
+  color: rgb(220, 20, 20);
 }
 
 nav ul li a:hover {
