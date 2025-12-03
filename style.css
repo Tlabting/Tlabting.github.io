@@ -72,17 +72,17 @@ nav ul li a .label-effect:first-child {
 
 nav ul li a .label-effect:last-child {
   color: rgb(220, 20, 20);
-  transform: translateY(100%);
+  transform: translateY(0);
 }
 
 nav ul li a:hover .label-effect:first-child {
   color: black;
-  transform: translateY(100%);
+  transform: translateY(-100%);
 }
 
 nav ul li a:hover .label-effect:last-child {
   color: rgb(220, 20, 20);
-  transform: translateY(0);
+  transform: translateY(-100%);
 }
 
 nav ul li a:hover {
