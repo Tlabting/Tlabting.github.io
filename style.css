@@ -83,6 +83,17 @@ nav ul li a:hover {
   margin: auto;
 }
 
+@media (max-width: 1150px) {
+  .header-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .header-nav-bar {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
+
 @media (max-width: 950px) {
   .profile_caption {
     position: static;
