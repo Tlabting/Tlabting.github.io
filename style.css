@@ -27,7 +27,6 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 1em;
 }
 
 .header-nav-bar {
@@ -38,15 +37,22 @@ nav ul {
   justify-content: flex-end;
   padding: 0;
   margin: 0;
+  gap: 2em;
+  display: flex;
 }
 
 nav ul li {
   display: inline-block;
+  font-size: 1em;
 }
 
 nav ul li a {
   text-decoration: none;
   padding: 1em;
+}
+
+nav ul li a .label-effect {
+  display: block;
 }
 
 nav ul li a .label-effect:first-child {
