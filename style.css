@@ -11,7 +11,6 @@
 }
 
 .profile_image {
-  position: static;
   width: 350px;
   height: 350px;
   overflow: hidden;
@@ -34,7 +33,7 @@ body {
   position: sticky;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .header-nav-bar {
@@ -84,6 +83,11 @@ nav ul li a:hover .label-effect:last-child {
   transform: translateY(-100%);
 }
 
+#about {
+  margin: 4em;
+  position: relative;
+}
+
 .profile_caption {
   position: relative;
   top: -320px;
@@ -103,7 +107,7 @@ nav ul li a:hover .label-effect:last-child {
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
   .profile_caption {
     position: static;
     left: auto;
