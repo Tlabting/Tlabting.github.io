@@ -2,6 +2,12 @@
   height: 4em;
 }
 
+.header-title img {
+  height: 19em;
+  margin-left: 2em;
+  margin-top: 0.7em;
+}
+
 .profile_image {
   position: relative;
   width: 250px;
