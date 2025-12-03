@@ -57,22 +57,36 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   padding: 1em;
+  overflow: hidden;
 }
 
 nav ul li a .label-effect {
   display: block;
+  transition: transform 0.3s ease;
 }
 
 nav ul li a .label-effect:first-child {
   color: black;
+  transform: translateY(0);
 }
 
 nav ul li a .label-effect:last-child {
   color: rgb(220, 20, 20);
+  transform: translateY(100%);
+}
+
+nav ul li a:hover .label-effect:first-child {
+  color: black;
+  transform: translateY(100%);
+}
+
+nav ul li a:hover .label-effect:last-child {
+  color: rgb(220, 20, 20);
+  transform: translateY(0);
 }
 
 nav ul li a:hover {
-  /*TODO*/
+  transform: translateY(0);
 }
 
 .profile_caption {
