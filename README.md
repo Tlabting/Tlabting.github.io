@@ -12,3 +12,6 @@ It looks inspecting the html element shows the list item anchor has two span ele
 ~~https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior~~ Looks like this would not be the appropriate approach
 
 https://www.w3schools.com/css/css3_transitions.asp
+
+Decided to move the Logo to the tab icon
+https://www.w3schools.com/html/html_favicon.asp
