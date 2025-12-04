@@ -18,3 +18,7 @@ https://www.w3schools.com/html/html_favicon.asp
 
 Looking to find a way to smoothly transition div elemnet placements at different screen sized ad came across this:
 https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using
+
+I think i'll use javascript for my form
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript
