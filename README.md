@@ -22,3 +22,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using
 I think i'll use javascript for my form
 
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript
+Note: use grid for form
+
+I'm having too much fun doing sill things. changing the cursor.
+https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor
+https://blog.logrocket.com/custom-cursor-css/
