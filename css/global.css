@@ -1,0 +1,51 @@
+body {
+  cursor: url("img/star.png") 16 16, auto;
+  font-family: "Lato", sans-serif;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1180px) {
+  .profile_caption {
+    position: static;
+    left: auto;
+    top: auto;
+    margin-top: 2em;
+  }
+
+  .header-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .header-nav-bar {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
+
+@media (max-width: 840px) {
+  #about {
+    margin: 2em;
+  }
+
+  .header-title img {
+    max-width: 20em;
+  }
+
+  .label-effect {
+    font-size: 0.9em;
+  }
+
+  .profile_image {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .profile_image img {
+    margin-top: -6em;
+  }
+}
+
+.form-container {
+  margin: 5em;
+}

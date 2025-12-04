@@ -1,0 +1,25 @@
+#about {
+  margin: 7em;
+  position: relative;
+}
+
+.profile_image {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile_image img {
+  width: 100%;
+  height: auto;
+  margin-top: -9em;
+}
+
+.profile_caption {
+  position: relative;
+  top: -320px;
+  left: 200px;
+  max-width: 500px;
+  margin: auto;
+}

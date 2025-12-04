@@ -1,0 +1,65 @@
+.header-logo img {
+  height: 4em;
+}
+
+.header-title img {
+  max-height: 8em;
+}
+
+.header-wrapper {
+  position: sticky;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+.header-nav-bar {
+  margin-left: auto;
+}
+
+nav ul {
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  gap: 2em;
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  overflow: hidden;
+  height: 1em;
+  display: block;
+}
+
+nav ul li a .label-effect {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+nav ul li a .label-effect:first-child {
+  color: black;
+}
+
+nav ul li a .label-effect:last-child {
+  color: rgb(220, 20, 20);
+}
+
+nav ul li a:hover .label-effect:first-child {
+  color: black;
+  transform: translateY(-100%);
+}
+
+nav ul li a:hover .label-effect:last-child {
+  color: rgb(220, 20, 20);
+  transform: translateY(-100%);
+}
+
+nav ul li a:hover {
+  cursor: url("img/star.png") 16 16, auto;
+}
