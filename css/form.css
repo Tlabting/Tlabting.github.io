@@ -1,0 +1,27 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+
+.form-grid div {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(194, 190, 190);
+}
+
+.grid-item-full {
+  grid-column: span 2;
+}
+
+.form-grid label {
+  margin-bottom: 0.5em;
+}
+
+.form-grid input,
+.form-grid textarea {
+  border: none;
+  padding: 0.5em;
+  font-family: inherit;
+}
