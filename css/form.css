@@ -6,9 +6,18 @@
 }
 
 .form-grid div {
-  display: flex;
+  display: block;
   align-items: center;
   border-bottom: 1px solid rgb(194, 190, 190);
+}
+
+.form-effect {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.form-effect:first-child {
+  transform: translateY(100%);
 }
 
 .grid-item-full {
@@ -22,6 +31,19 @@
 .form-grid input,
 .form-grid textarea {
   border: none;
+  width: 100%;
   padding: 0.5em;
   font-family: inherit;
+}
+
+input::placeholder {
+  text-align: right;
+}
+
+input {
+  background: none;
+}
+
+.grid-item:focus-within .form-effect:first-child {
+  transform: translateY(0);
 }
