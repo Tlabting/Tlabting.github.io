@@ -45,6 +45,7 @@ input::placeholder {
 }
 
 input {
+  width: 100%;
   background: none;
 }
 

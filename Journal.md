@@ -23,7 +23,8 @@ FORM:
 
 I think i'll use javascript for my form
 
-https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript
+~~https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript~~
+
 Note: use grid for form
 https://www.w3schools.com/tags/att_input_required.asp
 
@@ -53,3 +54,7 @@ I ended up using em instead of px.
 I'm having too much fun doing sill things. changing the cursor.
 https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor
 https://blog.logrocket.com/custom-cursor-css/
+
+I removed submit from the form actions and am changing my approach to the form submission, since this is going to be hosted on GitHub. It's going to be a much simpler approach. I'm just going to have a modal appear, and I won't be using the Bootstrap approach we used in class.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:modal

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/form.css" />
     <link rel="icon" type="image/svg+xml" href="img/TL.svg" />
+    <script defer src="form.js"></script>
     <title>Teresa LaBolle - Software Engineering Student</title>
   </head>
   <body>
@@ -49,7 +50,6 @@
         </div>
       </div>
     </header>
-
     <main>
       <section id="about">
         <div class="profile_image" id="profile_image">
@@ -89,7 +89,7 @@
         <p>Reach out!</p>
         <!-- TODO contact form-->
         <div class="form-container">
-          <form action="/submit" class="contact-form">
+          <form action="" class="contact-form">
             <div class="form-grid">
               <div class="grid-item">
                 <span class="form-effect">
@@ -149,9 +149,18 @@
               </div>
             </div>
             <br />
-            <button>Submit</button>
+            <button type="submit" id="submit-button">Submit</button>
           </form>
         </div>
+        <dialog class="modal" id="success-modal">
+          <div class="modal-body">
+            <p>Nothing happened successfully.</p>
+            <p>This is a demo form, so your info is not actually stored.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="close-modal">Close</button>
+          </div>
+        </dialog>
       </section>
     </main>
   </body>
