@@ -34,6 +34,16 @@ https://stackoverflow.com/questions/24287192/css-change-parent-on-focus-of-child
 
 I have the label and text input fields as span elements and I got them stacked horizontally. I then lowered the label so that it overlaps with the text field. When the text field is clicked on, the label goes to its original position above the text field. I had to adjust the background, so that the label was visible in its lowered position. I am trying to figure out how to get the label to stay up, if the text field has input. I think the right move will be to make the label stay up if the placeholder text is not there using not(placeholder-shown), but im struggling to find the right way to word the css.
 
+I ended up using has, which was the first result of "if child element has a text input value css".
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has
+
+I ended up applying the form-effect to all form elements except for the message text area. I had to adjust how I alight the text area placeholder, but I am relatively happy with the end result.
+
+I removed the focus outline for both the text input and the textarea, as it was bothering me.
+https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome
+
+I realized the cursor affect was not present after moving everything, and I adjusted the path to the image. I am not yet sure if I want to apply the custom cursor when the user is interacting with the contact form.
+
 I'm having too much fun doing sill things. changing the cursor.
 https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor
 https://blog.logrocket.com/custom-cursor-css/

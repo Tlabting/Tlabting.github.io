@@ -92,16 +92,38 @@
           <form action="/submit" class="contact-form">
             <div class="form-grid">
               <div class="grid-item">
-                <label for="name">Name</label>
-                <input type="text" id="name" required />
+                <span class="form-effect">
+                  <label for="name">Name</label>
+                </span>
+                <span class="form-effect">
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="required"
+                    required
+                  />
+                </span>
               </div>
               <div class="grid-item">
-                <label for="company">Company</label>
-                <input type="text" id="company" />
+                <span class="form-effect">
+                  <label for="company">Company</label>
+                </span>
+                <span class="form-effect">
+                  <input type="text" id="company" placeholder="optional" />
+                </span>
               </div>
               <div class="grid-item">
-                <label for="email">Email</label>
-                <input type="text" id="email" required />
+                <span class="form-effect">
+                  <label for="email">Email</label>
+                </span>
+                <span class="form-effect">
+                  <input
+                    type="text"
+                    id="email"
+                    placeholder="required"
+                    required
+                  />
+                </span>
               </div>
               <div class="grid-item">
                 <span class="form-effect">
@@ -118,7 +140,12 @@
               </div>
               <div class="grid-item-full">
                 <label for="message">Message</label>
-                <textarea id="message" rows="5" required></textarea>
+                <textarea
+                  id="message"
+                  placeholder="required"
+                  rows="5"
+                  required
+                ></textarea>
               </div>
             </div>
             <br />

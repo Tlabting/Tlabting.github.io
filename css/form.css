@@ -38,12 +38,35 @@
 
 input::placeholder {
   text-align: right;
+  color: rgb(194, 190, 190);
+  margin-right: 0.5em;
 }
 
 input {
   background: none;
 }
 
+textarea::placeholder {
+  text-align: end;
+  transform: translateY(410%);
+  color: rgb(194, 190, 190);
+  margin-right: 0.5em;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  margin: 0;
+}
+
 .grid-item:focus-within .form-effect:first-child {
   transform: translateY(0);
+}
+
+.grid-item:has(input:not(:placeholder-shown)) .form-effect:first-child {
+  transform: translateY(0);
+}
+
+*:focus {
+  outline: none;
 }

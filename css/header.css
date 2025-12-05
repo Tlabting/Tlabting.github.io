@@ -61,5 +61,5 @@ nav ul li a:hover .label-effect:last-child {
 }
 
 nav ul li a:hover {
-  cursor: url("img/star.png") 16 16, auto;
+  cursor: url("../img/star.png") 16 16, auto;
 }
