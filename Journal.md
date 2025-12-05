@@ -44,6 +44,12 @@ https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-a
 
 I realized the cursor affect was not present after moving everything, and I adjusted the path to the image. I am not yet sure if I want to apply the custom cursor when the user is interacting with the contact form.
 
+I could change the appearance of the button pretty easily, but I wasn't sure how to get the desired shape, I knew I needed to adjust the button-radius, but changing the percentage wasn't working.
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_round
+
+I ended up using em instead of px.
+
 I'm having too much fun doing sill things. changing the cursor.
 https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor
 https://blog.logrocket.com/custom-cursor-css/

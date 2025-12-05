@@ -14,6 +14,7 @@
 .form-effect {
   display: block;
   transition: transform 0.3s ease;
+  cursor: url("../img/star.png") 16 16, auto;
 }
 
 .form-effect:first-child {
@@ -26,6 +27,7 @@
 
 .form-grid label {
   margin-bottom: 0.5em;
+  cursor: url("../img/star.png") 16 16, auto;
 }
 
 .form-grid input,
@@ -69,4 +71,13 @@ textarea {
 
 *:focus {
   outline: none;
+}
+
+button {
+  cursor: url("../img/star.png") 16 16, auto;
+  background-color: rgb(220, 20, 20);
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 2em;
 }
