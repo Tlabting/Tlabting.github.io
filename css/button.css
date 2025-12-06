@@ -1,11 +1,14 @@
 button {
+  transition: background-color 0.5s ease;
   cursor: url("../img/star.png") 16 16, auto;
+  background-color: rgb(220, 20, 20);
   color: white;
   height: 3em;
   border: none;
   padding: 0;
   overflow: hidden;
   border-radius: 2em;
+  font-family: "Marcellus SC", serif;
 }
 
 .button-effect {
@@ -15,15 +18,16 @@ button {
   border-radius: inherit;
 }
 
-.button-effect:first-child {
-  background-color: rgb(220, 20, 20);
-}
-
 .button-effect:last-child {
   background-color: black;
 }
+button:hover {
+  background-color: white;
+}
+button:hover .button-effect:first-child {
+  transform: translateY(-100%);
+}
 
 button:hover .button-effect:last-child {
-  background-color: black;
   transform: translateY(-100%);
 }
