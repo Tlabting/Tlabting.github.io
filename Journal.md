@@ -58,3 +58,5 @@ https://blog.logrocket.com/custom-cursor-css/
 I removed submit from the form actions and am changing my approach to the form submission, since this is going to be hosted on GitHub. It's going to be a much simpler approach. I'm just going to have a modal appear, and I won't be using the Bootstrap approach we used in class.
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:modal
+
+I'm trying to get a similare effect on hover for the buttons, but I'm running into an issue of the children of button being slightly smaller than the button itself, no matter how i tweak the styling. I'm going to save it as is. My next step would be to make its so that the button itself doesnt carry the color or pill box shape, and that will be the styling for the children. Hopefully that works.
