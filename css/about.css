@@ -1,25 +1,26 @@
 #about {
   margin: 7em;
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .profile_image {
-  width: 350px;
-  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
   overflow: hidden;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .profile_image img {
   width: 100%;
+  object-fit: cover;
   height: auto;
   margin-top: -9em;
 }
 
 .profile_caption {
-  position: relative;
-  top: -320px;
-  left: 200px;
+  font-family: "Marcellus", serif;
   max-width: 500px;
   margin: auto;
 }

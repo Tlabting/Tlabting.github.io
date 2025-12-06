@@ -1,0 +1,17 @@
+#projects {
+  margin: 7em;
+}
+
+.project-list {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+.project-card {
+  height: 100%;
+  width: 25%;
+  font-family: "Marcellus", serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 2em;
+}
