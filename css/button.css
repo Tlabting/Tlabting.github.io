@@ -1,18 +1,22 @@
 button {
   cursor: url("../img/star.png") 16 16, auto;
-  background-color: rgb(220, 20, 20);
   color: white;
-  border: none;
-  border-radius: 2em;
   height: 3em;
+  border: none;
+  padding: 0;
   overflow: hidden;
+  border-radius: 2em;
 }
 
 .button-effect {
   display: block;
   transition: transform 0.5s ease;
-  padding: 1em 1em;
+  padding: 1em 2em;
   border-radius: inherit;
+}
+
+.button-effect:first-child {
+  background-color: rgb(220, 20, 20);
 }
 
 .button-effect:last-child {
