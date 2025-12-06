@@ -1,0 +1,25 @@
+button {
+  cursor: url("../img/star.png") 16 16, auto;
+  background-color: rgb(220, 20, 20);
+  color: white;
+  border: none;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  height: 3em;
+  overflow: hidden;
+}
+
+.button-effect {
+  display: block;
+  transition: transform 0.3s ease;
+  padding-bottom: 1em;
+}
+
+.button-effect:last-child {
+  background-color: black;
+}
+
+button:hover .button-effect:last-child {
+  background-color: black;
+  transform: translateY(-100%);
+}

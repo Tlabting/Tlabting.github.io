@@ -77,12 +77,3 @@ textarea {
 *:focus {
   outline: none;
 }
-
-button {
-  cursor: url("../img/star.png") 16 16, auto;
-  background-color: rgb(220, 20, 20);
-  color: white;
-  border: none;
-  padding: 0.8em 1.5em;
-  border-radius: 2em;
-}
