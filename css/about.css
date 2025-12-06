@@ -20,7 +20,10 @@
 }
 
 .profile_caption {
-  font-family: "Marcellus", serif;
   max-width: 500px;
   margin: auto;
+}
+
+.profile_caption p {
+  font-family: "Marcellus", serif;
 }
