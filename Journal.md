@@ -60,3 +60,14 @@ I removed submit from the form actions and am changing my approach to the form s
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:modal
 
 I'm trying to get a similare effect on hover for the buttons, but I'm running into an issue of the children of button being slightly smaller than the button itself, no matter how i tweak the styling. I'm going to save it as is. My next step would be to make its so that the button itself doesnt carry the color or pill box shape, and that will be the styling for the children. Hopefully that works.
+
+Turns out button had padding set automatically, setting padding to 0 fixed the issue. I then changed the button background to the red color and had it transition to white when hovered. The first child had its background set to none and now transitions up. This gave the desired effect I was trying to emulate, as seen on Avision's site. Its been fun and a bit tricky to figure out how the effects could be replicated. Taking a close look at their html, it looks like the span elements are flex items, which could indicate a slightly different approach than what I ended up coming up with.
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+I want the error message to appear below the input field.
+I am working on the validation of input by the user. Name fields will only allow lettes and space, apostrophe, period, or hyphen.
+Email must have a valid email format.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/email
+Phone number must have a valid format.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/tel
+All required fields must be filled. I decided to make the phone number optional.

@@ -77,3 +77,8 @@ textarea {
 *:focus {
   outline: none;
 }
+
+.error {
+  color: rgb(220, 20, 20);
+  font-family: "Marcellus", serif;
+}

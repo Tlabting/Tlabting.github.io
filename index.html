@@ -131,7 +131,7 @@
         <h1>Contact Me</h1>
         <p>Reach out!</p>
         <!-- TODO contact form-->
-        <form action="" class="contact-form">
+        <form action="" class="contact-form" novalidate>
           <div class="form-grid">
             <div class="grid-item">
               <span class="form-effect">
@@ -140,6 +140,7 @@
               <span class="form-effect">
                 <input type="text" id="name" placeholder="required" required />
               </span>
+              <span class="error" id="name-error" aria-live="polite"></span>
             </div>
             <div class="grid-item">
               <span class="form-effect">
@@ -154,8 +155,14 @@
                 <label for="email">Email</label>
               </span>
               <span class="form-effect">
-                <input type="text" id="email" placeholder="required" required />
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="required"
+                  required
+                />
               </span>
+              <span class="error" id="email-error" aria-live="polite"></span>
             </div>
             <div class="grid-item">
               <span class="form-effect">
@@ -163,12 +170,17 @@
               </span>
               <span class="form-effect">
                 <input
-                  type="text"
+                  type="tel"
                   id="phone-number"
-                  placeholder="required"
-                  required
+                  pattern="^\(\d{3}\)\d{3}-\d{4}$"
+                  placeholder="(xxx)xxx-xxxx    optional"
                 />
               </span>
+              <span
+                class="error"
+                id="phone-number-error"
+                aria-live="polite"
+              ></span>
             </div>
             <div class="grid-item-full">
               <label for="message">Message</label>
@@ -178,6 +190,7 @@
                 rows="5"
                 required
               ></textarea>
+              <span class="error" id="message-error" aria-live="polite"></span>
             </div>
           </div>
           <br />
