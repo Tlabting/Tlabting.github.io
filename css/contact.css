@@ -2,6 +2,10 @@
   margin: 7em;
 }
 
+#contact p {
+  font-family: "Marcellus", serif;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,6 +16,9 @@
 .form-grid div {
   display: block;
   align-items: center;
+}
+
+.item-container {
   border-bottom: 1px solid rgb(194, 190, 190);
 }
 
@@ -80,5 +87,9 @@ textarea {
 
 .error {
   color: rgb(220, 20, 20);
+  font-family: "Marcellus", serif;
+}
+
+.modal-body p {
   font-family: "Marcellus", serif;
 }

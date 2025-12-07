@@ -129,53 +129,65 @@
       </section>
       <section id="contact">
         <h1>Contact Me</h1>
-        <p>Reach out!</p>
-        <!-- TODO contact form-->
+        <p>Want to reach out? Why not fill out a fake form instead?</p>
         <form action="" class="contact-form" novalidate>
           <div class="form-grid">
             <div class="grid-item">
-              <span class="form-effect">
-                <label for="name">Name</label>
-              </span>
-              <span class="form-effect">
-                <input type="text" id="name" placeholder="required" required />
-              </span>
+              <div class="item-container">
+                <span class="form-effect">
+                  <label for="name">Name</label>
+                </span>
+                <span class="form-effect">
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="required"
+                    required
+                  />
+                </span>
+              </div>
               <span class="error" id="name-error" aria-live="polite"></span>
             </div>
             <div class="grid-item">
-              <span class="form-effect">
-                <label for="company">Company</label>
-              </span>
-              <span class="form-effect">
-                <input type="text" id="company" placeholder="optional" />
-              </span>
+              <div class="item-container">
+                <span class="form-effect">
+                  <label for="company">Company</label>
+                </span>
+                <span class="form-effect">
+                  <input type="text" id="company" placeholder="optional" />
+                </span>
+              </div>
             </div>
             <div class="grid-item">
-              <span class="form-effect">
-                <label for="email">Email</label>
-              </span>
-              <span class="form-effect">
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="required"
-                  required
-                />
-              </span>
+              <div class="item-container">
+                <span class="form-effect">
+                  <label for="email">Email</label>
+                </span>
+                <span class="form-effect">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="required"
+                    required
+                  />
+                </span>
+              </div>
               <span class="error" id="email-error" aria-live="polite"></span>
             </div>
             <div class="grid-item">
-              <span class="form-effect">
-                <label for="phone-number">Phone number</label>
-              </span>
-              <span class="form-effect">
-                <input
-                  type="tel"
-                  id="phone-number"
-                  pattern="^\(\d{3}\)\d{3}-\d{4}$"
-                  placeholder="(xxx)xxx-xxxx    optional"
-                />
-              </span>
+              <div class="item-container">
+                <span class="form-effect">
+                  <label for="phone-number">Phone number</label>
+                </span>
+                <span class="form-effect">
+                  <input
+                    type="tel"
+                    id="phone-number"
+                    pattern="^\(\d{3}\)\d{3}-\d{4}$"
+                    placeholder="(xxx)xxx-xxxx    optional"
+                  />
+                </span>
+              </div>
               <span
                 class="error"
                 id="phone-number-error"
@@ -183,13 +195,15 @@
               ></span>
             </div>
             <div class="grid-item-full">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                placeholder="required"
-                rows="5"
-                required
-              ></textarea>
+              <div class="item-container">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  placeholder="required"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
               <span class="error" id="message-error" aria-live="polite"></span>
             </div>
           </div>
@@ -201,7 +215,7 @@
         </form>
         <dialog class="modal" id="success-modal">
           <div class="modal-body">
-            <p>Nothing happened successfully.</p>
+            <h1>Nothing happened successfully.</h1>
             <p>This is a demo form, so your info is not actually stored.</p>
           </div>
           <div class="modal-footer">
