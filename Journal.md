@@ -71,3 +71,17 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/email
 Phone number must have a valid format.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/tel
 All required fields must be filled. I decided to make the phone number optional.
+
+Starting work on the project's effects. Following Lun Dev Code's tutorial
+https://www.youtube.com/watch?v=yqaLSlPOUxM
+I had to look up the difference of top vs margin top:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/top
+I made a few
+
+I added a pause on hover for the effect.
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-play-state
+
+button click to link :
+https://stackoverflow.com/questions/5025941/is-there-a-way-to-get-a-button-element-to-link-to-a-location-without-wrapping
+https://developer.mozilla.org/en-US/docs/Web/API/Window/open
+I wanted to have the button directly open the github link in a new window.

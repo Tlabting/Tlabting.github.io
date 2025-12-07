@@ -58,6 +58,48 @@ body {
   .header-title img {
     max-width: 20em;
   }
+
+  .project-banner {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: static;
+    overflow: visible;
+  }
+
+  .project-slider {
+    position: static;
+    width: 100%;
+    height: auto;
+    transform: none;
+    transform-style: flat;
+    animation: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 2em;
+  }
+
+  .project-item {
+    position: static;
+    inset: auto;
+    transform: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 250px;
+    font-family: "Marcellus", serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .form-container {

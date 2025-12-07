@@ -91,39 +91,77 @@
           I made stuff.
           <!-- TODO fill this in -->
         </p>
-        <div class="project-list" id="project-list">
+        <div class="project-banner" id="project-list">
           <!-- TODO project entries -->
-          <div class="project-card" id="project-card-1">
-            <h2>Project Title</h2>
-            <p>short description.</p>
-            <button>
-              <span class="button-effect">GitHub</span>
-              <span class="button-effect">GitHub</span>
-            </button>
-          </div>
-          <div class="project-card" id="project-card-2">
-            <h2>Project Title</h2>
-            <p>short description.</p>
-            <button>
-              <span class="button-effect">GitHub</span>
-              <span class="button-effect">GitHub</span>
-            </button>
-          </div>
-          <div class="project-card" id="project-card-3">
-            <h2>Project Title</h2>
-            <p>short description.</p>
-            <button>
-              <span class="button-effect">GitHub</span>
-              <span class="button-effect">GitHub</span>
-            </button>
-          </div>
-          <div class="project-card" id="project-card-4">
-            <h2>Project Title</h2>
-            <p>short description.</p>
-            <button>
-              <span class="button-effect">GitHub</span>
-              <span class="button-effect">GitHub</span>
-            </button>
+          <div class="project-slider" style="--quantity: 4">
+            <div class="project-item" style="--position: 1">
+              <div class="project-card" id="project-card-1">
+                <h2>Whisp</h2>
+                <p>
+                  A real-time chat application built with the MERN stack and
+                  Socket.IO. It features direct messaging, chatrooms, image
+                  sharing, and message search functionality.
+                </p>
+                <button
+                  class="project-btn"
+                  onclick="window.open('https://github.com/Tlabting/fullstack-chat-app', '_blank')"
+                >
+                  <span class="button-effect">GitHub</span>
+                  <span class="button-effect">GitHub</span>
+                </button>
+              </div>
+            </div>
+            <div class="project-item" style="--position: 2">
+              <div class="project-card" id="project-card-2">
+                <h2>Airline App</h2>
+                <p>
+                  An Android client for the Airline project from Joy of Coding
+                  Winter 2025. This app provides a simple mobile interface for
+                  viewing and managing airlines and their flights, and is
+                  intended to be run from Android Studio using an emulator.
+                </p>
+                <button
+                  class="project-btn"
+                  onclick="window.open('https://github.com/Tlabting/JoyOfCodingWinter2025/tree/main/airline-android', '_blank')"
+                >
+                  <span class="button-effect">GitHub</span>
+                  <span class="button-effect">GitHub</span>
+                </button>
+              </div>
+            </div>
+            <div class="project-item" style="--position: 3">
+              <div class="project-card" id="project-card-3">
+                <h2>Helmholtz Cage</h2>
+                <p>
+                  Troubleshot and optimized a Helmholtz cage test system for the
+                  OreSat cubesat, building Pytest-based bus communication tests.
+                  By the end of my 2023 Summer Internship We were able to manage
+                  the Raspberry Pi serial I/O with PySerial and udev rules.
+                </p>
+                <button>
+                  <span class="button-effect">GitHub</span>
+                  <span class="button-effect">GitHub</span>
+                </button>
+              </div>
+            </div>
+            <div class="project-item" style="--position: 4">
+              <div class="project-card" id="project-card-4">
+                <h2>This website</h2>
+                <p>
+                  A responsive personal portfolio site built with semantic HTML
+                  and modern CSS, featuring custom breakpoints, a 3D project
+                  carousel, animated buttons, and an accessible contact form—all
+                  styled without frontend frameworks.
+                </p>
+                <button
+                  class="project-btn"
+                  onclick="window.open('https://github.com/Tlabting/Tlabting.github.io'), '_blank'"
+                >
+                  <span class="button-effect">GitHub</span>
+                  <span class="button-effect">GitHub</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
