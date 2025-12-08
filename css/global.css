@@ -52,9 +52,13 @@ body {
   .profile_image img {
     margin-top: -6em;
   }
+
+  .profile_caption {
+    width: 100%;
+  }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .header-title img {
     max-width: 20em;
   }
