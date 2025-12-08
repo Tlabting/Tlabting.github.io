@@ -85,3 +85,8 @@ button click to link :
 https://stackoverflow.com/questions/5025941/is-there-a-way-to-get-a-button-element-to-link-to-a-location-without-wrapping
 https://developer.mozilla.org/en-US/docs/Web/API/Window/open
 I wanted to have the button directly open the github link in a new window.
+
+I am going list my job history as toggleable tabs
+https://www.w3schools.com/howto/howto_js_tabs.asp
+
+I decided I wanted reuse the label effect from the navbar, so I refactored the code for the navbar labels so that the label-effect can be reused in multiple contexts.

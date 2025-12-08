@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/label.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap"
@@ -17,7 +18,8 @@
     />
 
     <link rel="icon" type="image/x-icon" href="img/TL.png" />
-    <script defer src="form.js"></script>
+    <script defer src="js/form.js"></script>
+    <script defer src="js/tabs.js"></script>
     <title>Teresa LaBolle - Software Engineering Student</title>
   </head>
   <body>
@@ -31,26 +33,42 @@
             <ul>
               <li class="nav-about">
                 <a href="#about">
-                  <span class="label-effect">About Me</span>
-                  <span class="label-effect">About Me</span>
+                  <div class="label-container">
+                    <div class="label-area">
+                      <span class="label-effect">About Me</span>
+                      <span class="label-effect">About Me</span>
+                    </div>
+                  </div>
                 </a>
               </li>
               <li class="nav-previous">
                 <a href="#previous">
-                  <span class="label-effect">Previous Work</span>
-                  <span class="label-effect">Previous Work</span>
+                  <div class="label-container">
+                    <div class="label-area">
+                      <span class="label-effect">Previous Work</span>
+                      <span class="label-effect">Previous Work</span>
+                    </div>
+                  </div>
                 </a>
               </li>
               <li class="nav-projects">
                 <a href="#projects">
-                  <span class="label-effect">Projects</span>
-                  <span class="label-effect">Projects</span>
+                  <div class="label-container">
+                    <div class="label-area">
+                      <span class="label-effect">Projects</span>
+                      <span class="label-effect">Projects</span>
+                    </div>
+                  </div>
                 </a>
               </li>
               <li class="nav-contact">
                 <a href="#contact">
-                  <span class="label-effect">Contact Me</span>
-                  <span class="label-effect">Contact Me</span>
+                  <div class="label-container">
+                    <div class="label-area">
+                      <span class="label-effect">Contact Me</span>
+                      <span class="label-effect">Contact Me</span>
+                    </div>
+                  </div>
                 </a>
               </li>
             </ul>
@@ -92,14 +110,74 @@
           automation, developer tooling, and backend scripting. At The Standard,
           I design and execute end-to-end integration tests for Online Evidence
           of Insurability (EOI), build Cypress UI workflows, and automate
-          complex underwriting processes to reduce manual effort. At Portland
-          State University, I maintained a Python-based student check-in system,
-          wrote SQL migrations from PostgreSQL to MySQL, and supported students
-          in the Electronics Prototyping Lab while also leading communications
-          and outreach for the Maseeh College. Previous work on OreSat cubesat
+          multi-step manual tasks into single-run processes. At Portland State
+          University, I maintained a Python-based student check-in system, wrote
+          SQL migrations from PostgreSQL to MySQL, and supported students in the
+          Electronics Prototyping Lab while also leading communications and
+          outreach for the Maseeh College. Previous work on OreSat cubesat
           software, C++ tutoring, and Mandarin medical interpreting has
           strengthened my debugging and cross-functional communication skills.
         </p>
+        <div class="work-tab">
+          <a
+            href=""
+            class="tab-btn active"
+            onclick="openTab(event, 'Standard')"
+          >
+            <div class="label-container">
+              <div class="label-area">
+                <span class="label-effect">Standard</span>
+                <span class="label-effect">Standard</span>
+              </div>
+            </div>
+          </a>
+          <a href="" class="tab-btn" onclick="openTab(event, 'PSU')">
+            <div class="label-container">
+              <div class="label-area">
+                <span class="label-effect">PSU</span>
+                <span class="label-effect">PSU</span>
+              </div>
+            </div>
+          </a>
+          <a href="" class="tab-btn" onclick="openTab(event, 'PSAS')">
+            <div class="label-container">
+              <div class="label-area">
+                <span class="label-effect">PSAS</span>
+                <span class="label-effect">PSAS</span>
+              </div>
+            </div>
+          </a>
+          <a href="" class="tab-btn" onclick="openTab(event, 'PCC')">
+            <div class="label-container">
+              <div class="label-area">
+                <span class="label-effect">PCC</span>
+                <span class="label-effect">PCC</span>
+              </div>
+            </div>
+          </a>
+          <a href="" class="tab-btn" onclick="openTab(event, 'Linguava')">
+            <div class="label-container">
+              <div class="label-area">
+                <span class="label-effect">Linguava</span>
+                <span class="label-effect">Linguava</span>
+              </div>
+            </div>
+          </a>
+          <a href="" class="tab-btn" onclick="openTab(event, 'Blooms')">
+            <div class="label-container">
+              <div class="label-area">
+                <span class="label-effect">Blooms</span>
+                <span class="label-effect">Blooms</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="tab-content" id="Standard" style="display: block">hjh</div>
+        <div class="tab-content" id="PSU" style="display: none">jbj</div>
+        <div class="tab-content" id="PSAS" style="display: none">hg</div>
+        <div class="tab-content" id="PCC" style="display: none">jhg</div>
+        <div class="tab-content" id="Linguava" style="display: none">nh</div>
+        <div class="tab-content" id="Blooms" style="display: none">hjg</div>
       </section>
       <section id="projects">
         <h1>Projects</h1>
@@ -115,7 +193,6 @@
                   sharing, and message search functionality.
                 </p>
                 <button
-                  class="project-btn"
                   onclick="window.open('https://github.com/Tlabting/fullstack-chat-app', '_blank')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -133,7 +210,6 @@
                   intended to be run from Android Studio using an emulator.
                 </p>
                 <button
-                  class="project-btn"
                   onclick="window.open('https://github.com/Tlabting/JoyOfCodingWinter2025/tree/main/airline-android', '_blank')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -151,7 +227,6 @@
                   the Raspberry Pi serial I/O with PySerial and udev rules.
                 </p>
                 <button
-                  class="project-btn"
                   onclick="window.open('https://github.com/oresat/oresat-helmholtz', '_block')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -169,7 +244,6 @@
                   styled without frontend frameworks.
                 </p>
                 <button
-                  class="project-btn"
                   onclick="window.open('https://github.com/Tlabting/Tlabting.github.io', '_blank')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -272,7 +346,7 @@
             <p>This is a demo form, so your info is not actually stored.</p>
           </div>
           <div class="modal-footer">
-            <button class="close-modal">
+            <button class="general-btn close-modal">
               <span class="button-effect">Close</span>
               <span class="button-effect">Close</span>
             </button>

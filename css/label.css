@@ -1,0 +1,33 @@
+.label-effect {
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.label-effect:first-child {
+  color: black;
+}
+
+.label-effect:last-child {
+  color: rgb(220, 20, 20);
+}
+
+.label-area:hover .label-effect:first-child,
+.tab-btn.active .label-effect:first-child {
+  transform: translateY(-100%);
+}
+
+.label-area:hover .label-effect:last-child,
+.tab-btn.active .label-effect:last-child {
+  transform: translateY(-100%);
+}
+
+.label-area:hover {
+  cursor: url("../img/star.png") 16 16, auto;
+}
+
+.label-container {
+  font-weight: bolder;
+  overflow: hidden;
+  height: 1em;
+  display: block;
+}

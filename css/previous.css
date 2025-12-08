@@ -5,3 +5,21 @@
 #previous p {
   font-family: "Marcellus", serif;
 }
+
+.work-tab {
+  display: flex;
+  width: 100%;
+  margin-top: 2em;
+  gap: 3em;
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+
+.tab-btn {
+  font-family: "Marcellus SC", serif;
+  border: none;
+  background-color: white;
+  font-size: medium;
+  padding-bottom: 1em;
+  text-decoration: none;
+}

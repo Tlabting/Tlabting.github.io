@@ -63,6 +63,10 @@ body {
     max-width: 20em;
   }
 
+  .work-tab {
+    gap: 1.5em;
+  }
+
   .project-banner {
     width: 100%;
     height: auto;
