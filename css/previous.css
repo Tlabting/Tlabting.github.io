@@ -1,3 +1,7 @@
 #previous {
   margin: 7em;
 }
+
+#previous p {
+  font-family: "Marcellus", serif;
+}
