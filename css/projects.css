@@ -4,7 +4,7 @@
 
 .project-banner {
   width: 100%;
-  height: 550px;
+  height: 700px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -38,11 +38,11 @@
   position: absolute;
   inset: 0 0 0 0;
   transform: rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
-    translateZ(350px);
+    translateZ(300px);
 }
 
 .project-card {
-  height: 150px;
+  height: 250px;
   width: 200px;
   font-family: "Marcellus", serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -56,10 +56,10 @@
 }
 
 .project-card p {
-  font-size: x-small;
+  font-size: small;
   text-align: left;
 }
 
 .project-card button {
-  font-size: xx-small;
+  font-size: small;
 }
