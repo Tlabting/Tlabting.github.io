@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/button.css" />
     <link rel="stylesheet" href="css/label.css" />
     <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/scroll-btn.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap"
       rel="stylesheet"
@@ -20,6 +21,7 @@
     <link rel="icon" type="image/x-icon" href="img/TL.png" />
     <script defer src="js/form.js"></script>
     <script defer src="js/tabs.js"></script>
+    <script defer src="js/scroll.js"></script>
     <title>Teresa LaBolle - Software Engineering Student</title>
   </head>
   <body>
@@ -369,6 +371,7 @@
                   sharing, and message search functionality.
                 </p>
                 <button
+                  class="general-btn"
                   onclick="window.open('https://github.com/Tlabting/fullstack-chat-app', '_blank')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -386,6 +389,7 @@
                   intended to be run from Android Studio using an emulator.
                 </p>
                 <button
+                  class="general-btn"
                   onclick="window.open('https://github.com/Tlabting/JoyOfCodingWinter2025/tree/main/airline-android', '_blank')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -403,6 +407,7 @@
                   the Raspberry Pi serial I/O with PySerial and udev rules.
                 </p>
                 <button
+                  class="general-btn"
                   onclick="window.open('https://github.com/oresat/oresat-helmholtz', '_block')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -420,6 +425,7 @@
                   styled without frontend frameworks.
                 </p>
                 <button
+                  class="general-btn"
                   onclick="window.open('https://github.com/Tlabting/Tlabting.github.io', '_blank')"
                 >
                   <span class="button-effect">GitHub</span>
@@ -511,7 +517,7 @@
             </div>
           </div>
           <br />
-          <button type="submit" id="submit-button">
+          <button class="general-btn" type="submit" id="submit-button">
             <span class="button-effect">Submit</span>
             <span class="button-effect">Submit</span>
           </button>
@@ -530,5 +536,14 @@
         </dialog>
       </section>
     </main>
+    <button class="to-top" type="button" aria-label="Scroll to top">
+      <img
+        src="img/topRed.png"
+        alt="A red button with a white arrow"
+        width="50px"
+        height="50px"
+        aria-hidden="true"
+      />
+    </button>
   </body>
 </html>

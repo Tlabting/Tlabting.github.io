@@ -1,4 +1,4 @@
-button {
+.general-btn {
   transition: background-color 0.5s ease;
   cursor: url("../img/star.png") 16 16, auto;
   background-color: rgb(220, 20, 20);

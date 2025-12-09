@@ -90,3 +90,8 @@ I am going list my job history as toggleable tabs
 https://www.w3schools.com/howto/howto_js_tabs.asp
 
 I decided I wanted reuse the label effect from the navbar, so I refactored the code for the navbar labels so that the label-effect can be reused in multiple contexts.
+
+Adding a scroll back to top. trying to be mindful of aria labels. Fture steps will be implement throughout.
+http://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+Because I love playing with effects, I'm making by scroll button bounce
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
