@@ -58,7 +58,7 @@ body {
   }
 }
 
-@media (min-width: 390px) {
+@media (min-height: 850px) and (max-width: 500px) {
   html {
     display: flex;
     align-items: flex-start;
