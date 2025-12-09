@@ -58,9 +58,26 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 390px) {
+  html {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  header {
+    max-width: 370;
+  }
+
+  body {
+    padding: 1em;
+  }
+
   .header-title img {
     max-width: 20em;
+  }
+
+  section {
+    min-width: 340px;
   }
 
   .work-tab {
@@ -100,10 +117,10 @@ body {
 
   .project-card {
     width: 100%;
-    max-width: 250px;
+    min-width: 200px;
     font-family: "Marcellus", serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 2em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
