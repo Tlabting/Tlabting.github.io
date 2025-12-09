@@ -23,3 +23,24 @@
   padding-bottom: 1em;
   text-decoration: none;
 }
+
+.tab-content {
+  margin: 2em;
+  font-size: small;
+}
+
+.second {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.role,
+.timeframe {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.bullet-pts {
+  padding-left: 1rem;
+}
